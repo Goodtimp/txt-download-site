@@ -1,11 +1,11 @@
 const OSS = require('ali-oss')
 const MD5 = require('md5')
 let client = new OSS({
-  region: '*****',
-  accessKeyId: '*****',
-  accessKeySecret: '*****',
+  region: 'oss-cn-beijing',
+  accessKeyId: 'LTAIVPQyip3OQ4Jd',
+  accessKeySecret: 'bWP01h0blrXaaw1gSvccJYSdPJO4hE'
 })
-client.useBucket('*****')
+client.useBucket('iimtxt')
 
 
 function encryptMD5(text) {

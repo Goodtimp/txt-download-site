@@ -16,9 +16,11 @@
   "license": "MIT",
   "dependencies": {
     "ali-oss": "^6.0.1",
+    "cheerio": "^1.0.0-rc.2",
     "md5": "^2.2.1",
     "nzh": "^1.0.3",
-    "puppeteer": "^1.8.0"
+    "puppeteer": "^1.8.0",
+    "request": "^2.88.0"
   },
   "devDependencies": {}
 }

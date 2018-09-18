@@ -1,2 +1,3 @@
-console.log(22)
-a
+const Parse = require("./Parse/main")
+
+Parse.getNovelContent()
