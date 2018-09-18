@@ -1,0 +1,24 @@
+{
+  "name": "txt-download-site",
+  "version": "1.0.0",
+  "description": "tst site",
+  "scripts": {
+    "init": "webpack --progress --config webpack.dev.config.js",
+    "dev": "webpack-dev-server --content-base ./ --open --inline --hot --compress --history-api-fallback --config webpack.dev.config.js",
+    "build": "webpack --progress --hide-modules --config webpack.prod.config.js",
+    "lint": "eslint --fix --ext .js,.vue src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:c4evth/txt-download-site.git"
+  },
+  "author": "iimT <tfhhh@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ali-oss": "^6.0.1",
+    "md5": "^2.2.1",
+    "nzh": "^1.0.3",
+    "puppeteer": "^1.8.0"
+  },
+  "devDependencies": {}
+}
