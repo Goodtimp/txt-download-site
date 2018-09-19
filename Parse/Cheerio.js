@@ -3,9 +3,8 @@
  * @author iimT
  */
 class CheerioParse {
-  $ = {}
-  Cheerio = require("cheerio")
-  constructor (html, options) {
+  constructor(html, options) {
+    this.Cheerio = require("cheerio")
     this.$ = this.Cheerio.load(html)
   }
 
@@ -13,8 +12,9 @@ class CheerioParse {
    * 重新加载html
    * @param {*} html 
    */
-  reload (html, options) {
+  reload(html, options) {
     this.$ = this.Cheerio.load(html)
+    return this
   }
 
   /**

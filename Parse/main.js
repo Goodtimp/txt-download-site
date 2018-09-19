@@ -33,11 +33,10 @@ function getLinkAll(html) {
  * @param {*} html 
  */
 function getNovelContent(html) {
-  let $ = getCheerio(html)
-  let content = $.getSelectorHtml('#content')
-  let contentText = $.getSelectorText("#content")
-  console.log(content)
-  console.log(contentText)
+  let $       = getCheerio(html)
+  let content = $.getSelectorText("#content").toString()
+  content = content.replace(/    /ig, "")
+  return content
 }
 
 
