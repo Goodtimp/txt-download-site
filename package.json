@@ -16,13 +16,22 @@
   "license": "MIT",
   "dependencies": {
     "ali-oss": "^6.0.1",
+    "async": "^2.6.1",
+    "big-time": "^2.0.1",
+    "boom": "^7.2.0",
+    "catbox": "^10.0.2",
     "cheerio": "^1.0.0-rc.2",
+    "cryptiles": "^4.1.1",
     "fs": "0.0.1-security",
+    "hapi": "^17.4.0",
+    "iron": "^5.0.4",
     "md5": "^2.2.1",
     "nzh": "^1.0.3",
     "os": "^0.1.1",
     "puppeteer": "^1.8.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "restify": "^7.1.1",
+    "topo": "^3.0.0"
   },
   "devDependencies": {}
 }
