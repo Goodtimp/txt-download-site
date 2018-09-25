@@ -35,7 +35,7 @@ function WriteAddToFile(path, content) {
   })
 }
 
-module.exports{
+module.exports = {
   WriteAddToFile,
   WriteCoverFile
 }

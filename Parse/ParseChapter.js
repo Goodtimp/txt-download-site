@@ -1,3 +1,4 @@
+
 const Nzh   = require("nzh");
 const nzhcn = Nzh.cn
 /**
@@ -46,3 +47,4 @@ function isDecimal(word) {
 module.exports = {
   parseChapterNumber,
 }
+

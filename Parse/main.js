@@ -1,3 +1,4 @@
+
 /**
  * parse
  */
@@ -68,4 +69,5 @@ module.exports = {
   getNovelContent,
   GetNameByHtml,
   GetAuthorByHtml
+
 }
