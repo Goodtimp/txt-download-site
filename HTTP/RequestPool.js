@@ -1,7 +1,9 @@
 
 const async = require("async")
 const Request = require("./Request")
-
+/**
+ * 请求池
+ */
 class RequestPool {
   constructor(MaxAsnyc) {
     this.MaxAsnyc = MaxAsnyc
