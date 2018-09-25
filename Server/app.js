@@ -13,4 +13,4 @@ Mapper.start(server)
 
 server.listen(8080, function() {
   console.log('MTAPI server listening at %s', server.url);
-});
+})
