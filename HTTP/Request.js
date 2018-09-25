@@ -12,19 +12,16 @@ const headers = {
  */
 
 function GetUrlSrc(url){
-
-    return new Promise( (resolve, reject) => {
+   return new Promise( (resolve, reject) => {
       request(url, {headers: headers}, (error, response, body) => {
-        if (!error && response.statusCode == 200) {
-
-          resolve(body)
-        } else {
-          reject(response)
-        }
+         if (!error && response.statusCode == 200) {
+            resolve(body)
+         } else {
+            reject(response)
+         }
       })
   })
 }
-
 
 module.exports={
     GetUrlSrc
